@@ -1,0 +1,36 @@
+.hero-banner {
+  height: 80vh;
+  /* Экрандын 80% ээлейт */
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9) 20%, transparent 100%),
+    url('https://1.bp.blogspot.com/-u9ZCKG9OA1Q/WYdqma6zoLI/AAAAAAAAALA/m5bNukpqTGIfWpPWXFpfLYU1pahJh_mGwCLcBGAs/w1200-h630-p-k-no-nu/IMG_20170807_012325.jpg');
+  /* Сүрөттүн дарегин коюңуз */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  color: white;
+}
+
+.banner-content {
+  max-width: 500px;
+}
+
+.banner-title {
+  font-size: 80px !important;
+  color: white !important;
+  margin-bottom: 0 !important;
+  font-weight: 800 !important;
+  letter-spacing: 2px;
+}
+
+.banner-meta {
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.banner-desc {
+  color: #ddd;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
