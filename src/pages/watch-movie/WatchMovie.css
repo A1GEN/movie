@@ -1,0 +1,59 @@
+.watch-container {
+  min-height: 80vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  padding: 50px 5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.watch-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.5) 50%, transparent 100%);
+  z-index: 1;
+}
+
+.watch-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+.meta-info {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  color: #ccc;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  background: #666;
+  border-radius: 50%;
+}
+
+.action-buttons .ant-btn {
+  height: 45px;
+  padding: 0 25px;
+  font-weight: 500;
+}
+
+.action-buttons .ant-btn-primary {
+  background-color: #e50914;
+  border-color: #e50914;
+}
+
+.action-buttons .ant-btn-primary:hover {
+  background-color: #f6121d;
+  border-color: #f6121d;
+}

@@ -1,0 +1,11 @@
+.shop-page {
+  padding-top: 80px;
+  text-align: center;
+  background: #141414;
+  min-height: calc(100vh - 80px);
+}
+
+.shop-page .ant-card {
+  max-width: 600px;
+  margin: 0 auto;
+}

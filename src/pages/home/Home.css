@@ -1,0 +1,24 @@
+.home-section {
+  padding: 20px 0;
+}
+
+.movie-row {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 10px 5%;
+}
+
+.movie-row::-webkit-scrollbar {
+  height: 6px;
+}
+
+.movie-row::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 3px;
+}
+
+.movie-card {
+  width: 160px;
+  flex: 0 0 auto;
+}
