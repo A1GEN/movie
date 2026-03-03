@@ -1,5 +1,7 @@
 import AppHeader from './components/header/Header';
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+// import { BrowserRouter, Routes, Route } from "react-router-dom"
+// import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/home/Home';
 import Movies from './pages/movies/Movies';
 import WatchMovie from './pages/watch-movie/WatchMovie';
@@ -26,7 +28,7 @@ const App = () => {
   return (
     <div>
       <FavoritesProvider>
-        <BrowserRouter>
+        <HashRouter>
           <AppHeader />
           <Routes>
             <Route path="/" element={<Home  />} />
@@ -37,7 +39,7 @@ const App = () => {
             <Route path="/watch/:id" element={<WatchMovie />} />
             <Route path="/*" element={<h1>404 - Page Not Found</h1>} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </FavoritesProvider>
     </div>
   )
